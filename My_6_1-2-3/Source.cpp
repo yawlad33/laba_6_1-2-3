@@ -15,7 +15,7 @@ int predel(int a, int b,double number) {
 	if (floor(number) == number) {
 		while (number < a || number > b)
 		{
-			cout << "Îøèáêà ââîäà, ïîâòîğèòå: ";
+			cout << "ĞÑˆĞ¸Ğ±ĞºĞ° Ğ²Ğ²Ğ¾Ğ´Ğ°, Ğ¿Ğ¾Ğ²Ñ‚Ğ¾Ñ€Ğ¸Ñ‚Ğµ: ";
 			cin >> number;
 		}
 		return number;
@@ -42,11 +42,11 @@ int main(){
 
 	const int N = 5;
 	int* arr = new int[N];
-	cout << "Çàïîëíèòå ìàññèâ äëÿ ñîğòèğîâêè: ";
+	cout << "Ğ—Ğ°Ğ¿Ğ¾Ğ»Ğ½Ğ¸Ñ‚Ğµ Ğ¼Ğ°ÑÑĞ¸Ğ² Ğ´Ğ»Ñ ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²ĞºĞ¸: ";
 	for (int i = 0; i < N; i++)
 		cin >> arr[i];
 	Sort(arr, N);
-	cout << "Îòñîğòèğîâàííûé ìàññèâ: " << endl;
+	cout << "ĞÑ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ñ‹Ğ¹ Ğ¼Ğ°ÑÑĞ¸Ğ²: " << endl;
 	for (int i = 0; i < N; i++)
 		cout << arr[i] << " ";
 	

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\yawla\source\repos\My_6_1-2-3\My_6_1-2-3\Source.cpp(21,10): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  My_6_1-2-3.vcxproj -> C:\Users\yawla\source\repos\My_6_1-2-3\Debug\My_6_1-2-3.exe
